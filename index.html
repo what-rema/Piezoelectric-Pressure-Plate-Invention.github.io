@@ -39,14 +39,14 @@
             Img {
                 margin: 2px;
             }
-            .SecondBox {
+            .rightBox {
                 position: relative;
                 float: right;
-                width: 39%;
+                width: 48%;
                 margin: 6px;
-                right: 3;
+                
                 bottom: 85px;
-                height: 50em;
+                height: 50.2em;
             }
             .Highlight_Acquire_Materials {
                 color: white;
@@ -58,9 +58,19 @@
                 font-weight: 1000;
             }
             .thirdBox {
-                position: absolute;
-                bottom: 130px;
-                
+                position: relative;
+                top: 450px;
+                height: 60em;
+                overflow: auto;
+            }
+            .spacing  {
+                margin: 10px;
+            }
+            .caution {
+                background: yellow;
+            }
+            .saftey {
+                color: rgb(255,0, 0);
             }
         </style>
     </head>
@@ -79,11 +89,11 @@
                     <!--"""-->
                     <li><p>Relay Module</p><h6 class = "materialsCaption">HiLetgo 2pcs 5V One Channel Relay Module Relay Switch with OPTO Isolation High Low Level Trigger</h6><img src = "https://m.media-amazon.com/images/I/61geaIj2tUL._AC_SL1010_.jpg" width = "90" alt = "HiLetgo 2pcs 5V One Channel Relay Module Relay Switch with OPTO Isolation High Low Level Trigger"></li>
                     <li><p>LM358 Dual Operational Amplifier</p><h6 class = "materialsCaption">LM358P LM358 Dual Operational Amplifier IC Om-Amp DIP-8</h6><img src = "https://m.media-amazon.com/images/I/51HwUToK70L._SL1500_.jpg" width = "90" alt = "LM358P LM358 Dual Operational Amplifier IC Om-Amp DIP-8"></li>
-                    <li><p>Wiring & Electrical Tape & Glue</p><img src = "https://m.media-amazon.com/images/I/61HSJlkdEIL._SL1500_.jpg"  height = "100" alt = "14awg Wire Flexible Silicone Wire,14 Gauge Tinned Copper Wires Silicone Rubber Insulated (6 Different Colored 13.2ft /4m Each)(OD:3.5 mm) 600V Stranded Wire Automotive Wiring"><img src = "https://i5.walmartimages.com/asr/a0118256-9b11-4314-8397-1be611af1e60.1ccda2fe83c90ede68f0e85bc7c4e4b4.jpeg" height = "100" alt = "Electrical Tape, Nova Pro Supply 3/4 Multi-color Electrical Tape, 12 Pack"></li>
+                    <li><p>Wiring & Electrical Tape & Glue & Diodes</p><img src = "https://m.media-amazon.com/images/I/61HSJlkdEIL._SL1500_.jpg"  height = "100" alt = "14awg Wire Flexible Silicone Wire,14 Gauge Tinned Copper Wires Silicone Rubber Insulated (6 Different Colored 13.2ft /4m Each)(OD:3.5 mm) 600V Stranded Wire Automotive Wiring"><img src = "https://i5.walmartimages.com/asr/a0118256-9b11-4314-8397-1be611af1e60.1ccda2fe83c90ede68f0e85bc7c4e4b4.jpeg" height = "100" alt = "Electrical Tape, Nova Pro Supply 3/4 Multi-color Electrical Tape, 12 Pack"></li>
                     
                 </ul>
                 </div>
-                <li class = "SecondBox">
+                <li class = "rightBox">
                     <h6 class = "steps">Step 2:</h6>
                     <h3>Devise Pressure Plate</h3>
                         <div class = "steps_box">
@@ -108,11 +118,36 @@
                             </ol>
                         </div>
                 </li>
-                <li class = "thirdBox">
-                    <h6 class = "steps">Step 2:</h6>
-                    <h3>Devise Pressure Plate</h3>
+                <li class = "thirdBox ">
+                    <h6 class = "steps">Step 3:</h6>
+                    <h3>Wiring Super Capcitors</h3>
                     <div class = "steps_box">
-                        
+                        <h4 class = "spacing caution">Caution: It is dangerous to have these devices touching each other without connecting it to outlet such as an L.E.D.</h4>
+                        <h4 class = "spacing caution saftey">Caution: this is not a toy: this is eletrical equipment so it must be handled, using normal eletronic saftey precautions.</h4>
+                        <ol>
+                            <li>
+                                <p>Attain Super Capcitors, Wires, and Diodes.</p>
+                            </li>
+                            <li>
+                                <p>Take half of the your pack (4/8, 2/4, 3/6 etc.)</p>
+                            </li>
+                            <li>
+                                <p>Connect the Super Capcitors in parallel.</p>
+                            </li>
+                            <li>
+                                <p>Take the negative and positive wires of the last Super Capcitor from the connected pack and connect two differnt wires to each terminal.</p>
+                            </li>
+                            <li>
+                                <p>Connect the posistive wire to a diode with the line on the diode facing inward.</p>
+                            </li>
+                            <li>
+                                <p>Now leave this with the to terminals not touching.</p>
+                            </li>
+                            <li>
+                                <p>Repeat this, but instead connect the Super Capcitors in series.</p>
+                            </li>
+                        </ol>
+                        <h6 class = "spacing caution">You may add an LED to both.</h6>
                     </div>
                 </li>
         </ol>
